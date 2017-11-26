@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sequence name="callClassMediatorSeq" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
-    <property name="CITY" scope="default" type="STRING" value="Fortaleza-CE"/>
-    <class name="com.lopes.sample.UppercaseConvertMediator">
-        <property name="name" value="Anderson"/>
-    </class>
     <log>
-        <property expression="$ctx:CONVERTED" name="==============="/>
-    </log>
-    <log>
-        <property name="+++++++++++++++++++++++++++++++" value="CALLING COMPACT FILE ALL"/>
+        <property name="+++++++++++++++++++++++++++++++" value="COMPACT FILE - ALL"/>
     </log>
     <class name="com.lopes.sample.CompactFile">
         <property name="fileName" value=""/>

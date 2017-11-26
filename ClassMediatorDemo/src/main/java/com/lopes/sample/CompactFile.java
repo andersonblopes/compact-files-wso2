@@ -32,7 +32,6 @@ public class CompactFile extends AbstractMediator {
 
 			if (fileName == null || fileName.equals("")) {
 				zipFolder(getHomeDirectory(), getDestinationDirectory() + ".zip");
-				// zipFolder("d:\\test", "d:\\test\\test.zip");
 			} else {
 				zipFolder(getHomeDirectory() + File.separator + getFileName(),
 						getDestinationDirectory() + File.separator + getFileName());

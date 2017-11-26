@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<api context="/uppercase" name="callClassMediator" xmlns="http://ws.apache.org/ns/synapse">
+<api context="/compactfile" name="callClassMediator" xmlns="http://ws.apache.org/ns/synapse">
     <resource inSequence="callClassMediatorSeq" methods="POST GET">
         <outSequence/>
         <faultSequence/>
